@@ -44,12 +44,12 @@ module.exports = {
     //
     // See <http://truffleframework.com/docs/advanced/configuration>
   // to customize your Truffle configuration!
-  networks: {
+
      development: {
       host: "localhost",     // Localhost (default: none)
-      port: 9545,            // Standard Ethereum port (default: none)
+      port: 8545,            // Standard Ethereum port (default: none)
       network_id: 2,       // Any network (default: none)
-     },
+    },
 
     // Another network with more advanced options...
     // advanced: {
