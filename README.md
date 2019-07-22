@@ -15,7 +15,7 @@ A smart contract that allows you to create and transfer a dummy digital currency
      `module.exports = function(deployer) {`  
         `deployer.deploy(magicCoin);`  
      `}`  
-- Edit __truffle-config.js file__
+- Edit __truffle-config.js file__  
     `networks: {`  
      `development: {`  
       `host: "localhost",     // Localhost (default: none)`  
@@ -25,7 +25,6 @@ A smart contract that allows you to create and transfer a dummy digital currency
 - In the project directory, run `truffle migrate`  
     
 ### Testing a smart contract:  
-- create test directory  
 - create and edit test/magicCoin.js  
 - `truffle test ./test/magicCoin.js`  
 
