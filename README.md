@@ -25,8 +25,8 @@ A smart contract that allows you to create and transfer a dummy digital currency
 - In the project directory, run `truffle migrate`  
     
 ### Testing a smart contract:  
-- create and edit test/magicCoin.js  
-- `truffle test ./test/magicCoin.js`  
+- create and edit test/magicCoin.test.js  
+- `truffle test ./test/magicCoin.test.js`  
 
 ## Useful links:
 https://medium.com/@gus_tavo_guim/testing-your-smart-contracts-with-javascript-40d4edc2abed
