@@ -16,12 +16,12 @@ A smart contract that allows you to create and transfer a dummy digital currency
         `deployer.deploy(magicCoin);`  
      `}`  
 - Edit __truffle-config.js file__
-    `networks: {`
-     `development: {`
-      `host: "localhost",     // Localhost (default: none)`
-      `port: 8545,            // Standard Ethereum port (default: none)`
-      `network_id: "*",       // Any network (default: none)`
-     `}`
+    `networks: {`  
+     `development: {`  
+      `host: "localhost",     // Localhost (default: none)`  
+      `port: 8545,            // Standard Ethereum port (default: none)`  
+      `network_id: "*",       // Any network (default: none)`  
+     `}`  
 - In the project directory, run `truffle migrate`  
     
 ### Testing a smart contract:  
