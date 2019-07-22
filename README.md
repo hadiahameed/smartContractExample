@@ -1,6 +1,9 @@
 # smartContractExample
 A smart contract that allows you to create and transfer a dummy digital currency called Magic Coin.  
 
+## Usage:
+`truffle test ./test/magicCoin.test.js`
+
 ## Coding Instructions:  
 
 ### Creating a smart contract  
